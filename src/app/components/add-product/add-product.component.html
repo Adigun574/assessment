@@ -1,0 +1,9 @@
+<h3>Add New Product</h3>
+
+<form [formGroup]="addProductForm">
+    <input type="text" formControlName="name"><br>
+    <input type="text" formControlName="price"><br>
+    <input type="text" formControlName="quantity"><br>
+    <input type="text" formControlName="uom"><br>
+    <button (click)="saveProduct()">Save</button>
+</form>
